@@ -33,6 +33,13 @@ namespace WordCounterProject.Tests
             Assert.AreEqual(2, RepeatCounter.GetDictionary()["apple"]);
         }
 
+        [TestMethod]
+        public void SetDictionary_Contains3Foos_True()
+        {
+            RepeatCounter.SetDictionary("foo bar baz foo bar baz foo bar");
+            Assert.AreEqual(3, RepeatCounter.GetDictionary()["foo"]);
+        }
+
         public void Dispose()
         {
             RepeatCounter.ClearAll();
