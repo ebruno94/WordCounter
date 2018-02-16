@@ -15,9 +15,7 @@ Program that counts the instances of a word in a given string, omits punctuation
 | **Program returns the number of words in a string**| User input: "apple" | Output: "1" |
 | **Program returns the number of words in a string**| User input: "apple apple" | Output: "2" |
 | **Program returns the word and count 1 if user inputs one word**| User input: "apple" | Output: "apple: 1" |
-
 | **Program returns 2 if user inputs a word twice** | User input: "apple apple" | Output: "apple: 2" |
-
 | **Program returns a message if user includes non-alphabetical characters in input**| User Input: "appl3" | Output: "Invalid Input" |
 
 
