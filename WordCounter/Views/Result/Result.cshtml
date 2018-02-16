@@ -1,0 +1,14 @@
+@{
+    Layout = "_Layout";
+}
+
+<div class="container" id="resultContainer">
+    <h1>Here are the results!</h1>
+    <hr>
+    @foreach (KeyValuePair<string,int> pair in Model)
+    {
+        <p>@pair.Key : @pair.Value times</p>
+    }
+
+    <a href="/"><button type="button" name="return">Return</button></a>
+</div>

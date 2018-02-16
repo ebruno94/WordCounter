@@ -1,0 +1,14 @@
+@{
+    Layout = "_Layout";
+}
+<div class="container" id="introContainer">
+    <p>This program allows you, the user, to enter a word or a sentence that <em> DOES NOT CONTAIN ANY SPECIAL CHARACTERS </em> and displays each word along with the number of instances they appear in the sentence after clicking the submit button (which sends you to the result page)</p>
+    <p> ** THERE ARE NO CHARACTER LIMITS ** </p>
+</div>
+<div class="container" id="formContainer">
+    <form action="/result" method="post">
+        <label for="userInput">Please enter a sentence: </label>
+        <input type="text" name="userInput" pattern="[A-Za-z ]" title="Non-alphabetical characters are not accepted.">
+        <button type="submit" name="button">SUBMIT</button>
+    </form>
+</div>

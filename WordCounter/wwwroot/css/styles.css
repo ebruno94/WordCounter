@@ -1,60 +1,127 @@
-html {
-    height: 100%;
+/* body{
+    background-image:url("../img/background.jpg");
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-size: auto;
+    padding-top: 100px;
+    padding-bottom: 200px;
+    padding-left: 100px;
+    padding-right: 100px;
+} */
+
+div#footer {
+  position: fixed;
+  height: 40px;
+  background-color: #0d1a23;
+  bottom: 0px;
+  left: 0px;
+  right:0px;
+  margin-bottom:0px;
+  text-align: center;
+  color: white;
+  font-size: 18px;
 }
 
-footer {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    opacity: 0.5;
-    box-shadow: 0 0 25px black;
-    text-align: center;
-    background-color: black;
-    color: white;
-    width: 100%;
-}
-
-body {
-    padding: 50px;
-    background-image: radial-gradient(white 0%, black 100%);
-    background-size: 100% 100%;
-    height: 100%;
-
-}
-
-#palindrome {
-    text-align: center;
-    font-size: 100px;
-    position: fixed;
-}
-
+/*
 .jumbotron {
-    background-color: black;
-    border: 10px dotted gray;
-    border-radius: 25px;
-    box-shadow: 0 0 25px black;
-}
-
-.jumbotron h1{
     text-align: center;
-    font-size: 80px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-bottom: 0px;
+    background-color: #0d1a23;
     color: white;
-}
-
-.container {
-    margin: 30px;
-    display: block;
-    margin-right: auto !important;
-    margin-left: auto !important;
-}
-
+    font-family: Palatino, "Palatino LT STD", "Palatino Linotype", "Book Antiqua", Georgia, serif;
+    text-shadow: 0px 0px 10px white;
+    border: 5px solid black;
+    border-bottom: 0px;
+    box-shadow: 0px 0px 20px black;
+} */
+/*
 .btn {
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
-    border: 2px solid black;
-    border-radius: 10px;
-    box-shadow: 0 0 25px black;
-    background-color: black;
+    box-shadow: 0px 0px 25px black;
+    margin left: 20px;
+    margin-right: 20px;
+    background-color: #0d1a23;
     color: white;
+    font-size: 25px;
 }
+
+button:hover{
+    box-shadow: 0px 0px 15px black inset;
+    background-color: lightgray;
+    color: black;
+}
+
+.container{
+    padding-left: 0;
+    padding-right: 0;
+}
+#homeContainer{
+    background-image:url("../img/paper.jpg");
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-family: Palatino, "Palatino LT STD", "Palatino Linotype", "Book Antiqua", Georgia, serif;
+    font-size: 25px;
+}
+
+#formContainer{
+    background-image:url("../img/paper.jpg");
+    padding-top: 30px;
+    padding-bottom: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-family: Palatino, "Palatino LT STD", "Palatino Linotype", "Book Antiqua", Georgia, serif;
+    font-size: 25px;
+}
+
+#detailContainer{
+    background-image:url("../img/paper.jpg");
+    padding-top: 30px;
+    padding-bottom: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-family: Palatino, "Palatino LT STD", "Palatino Linotype", "Book Antiqua", Georgia, serif;
+    font-size: 25px;
+}
+
+#detailContainer, #formContainer, #homeContainer{
+    border: 5px solid black;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px black;
+}
+
+.form-control {
+    height: 30px;
+}
+
+.city, .number{
+    width: 350px;
+}
+
+.state{
+    width: 50px;
+}
+
+.zip {
+    width: 100px;
+}
+
+.lastName, .firstName{
+    width: 400px;
+}
+
+
+hr{
+    color: black;
+    border: 1px solid black;
+    box-shadow: 0px 0px 20px black;
+    opacity: 0.7;
+}
+
+h1 {
+    text-align: center;
+    text-shadow: 0px 0px 10px black;
+} */
