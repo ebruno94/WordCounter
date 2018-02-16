@@ -5,10 +5,25 @@
 <div class="container" id="resultContainer">
     <h1>Here are the results!</h1>
     <hr>
+    <div class="row">
+        <div class="col-md-6">
+            <h4>WORD</h4>
+        </div>
+        <div class="col-md-6">
+            <h4># OF INSTANCES</h4>
+        </div>
+    </div>
+
     @foreach (KeyValuePair<string,int> pair in Model)
     {
-        <p>@pair.Key : @pair.Value times</p>
+        <div class="row">
+            <div class="col-md-6">
+                <p>@pair.Key</p>
+            </div>
+            <div class="col-md-6">
+                <p>@pair.Value</p>
+            </div>
+        </div>
     }
-
     <a href="/"><button type="button" name="return">Return</button></a>
 </div>

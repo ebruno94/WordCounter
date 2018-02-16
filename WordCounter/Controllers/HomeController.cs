@@ -1,5 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using System;
+using System.Collections.Generic;
+using WordCounterProject.Models;
 
 namespace WordCounterProject.Controllers
 {
@@ -8,7 +10,8 @@ namespace WordCounterProject.Controllers
         [HttpGet("/")]
         public ActionResult Index()
         {
-            return View();
+            RepeatCounter.ClearAll();
+            return View("Form");
         }
     }
 }
