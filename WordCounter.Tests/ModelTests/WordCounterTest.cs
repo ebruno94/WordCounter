@@ -17,7 +17,7 @@ namespace WordCounterProject.Tests
         }
 
         [TestMethod]
-        public void SetDictionary_ContainsApple_true()
+        public void SetDictionary_ContainsApple_True()
         {
             WordCounter myCounter = new WordCounter();
             myCounter.SetDictionary("apple");
@@ -25,7 +25,7 @@ namespace WordCounterProject.Tests
         }
 
         [TestMethod]
-        public void SetDictionary_ContainsTwoApples_true()
+        public void SetDictionary_ContainsTwoApples_True()
         {
             WordCounter myCounter = new WordCounter();
             myCounter.SetDictionary("apple apple");
