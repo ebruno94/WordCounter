@@ -6,7 +6,7 @@ namespace WordCounterProject
 {
     public class RepeatCounter
     {
-        private Dictionary<string, int> _dictionary = new Dictionary<string,int>(){};
+        private static Dictionary<string, int> _dictionary = new Dictionary<string,int>(){};
 
         // SIMPLE CASE -- might not use it, I found a better way.
         public int CountWords(string word)
@@ -14,7 +14,7 @@ namespace WordCounterProject
             return word.Split(' ').Length;
         }
 
-        public void SetDictionary(string input)
+        public static void SetDictionary(string input)
         {
             string[] wordArray = input.Split(' ');
             foreach (string word in wordArray)
@@ -30,9 +30,14 @@ namespace WordCounterProject
             }
         }
 
-        public Dictionary<string, int> GetDictionary()
+        public static Dictionary<string, int> GetDictionary()
         {
             return _dictionary;
+        }
+
+        public static void ClearAll()
+        {
+             _dictionary = new Dictionary<string,int>(){};
         }
     }
 }
