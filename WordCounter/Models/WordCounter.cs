@@ -4,11 +4,11 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace WordCounterProject
 {
-    public class WordCounter
+    public class RepeatCounter
     {
         private Dictionary<string, int> _dictionary = new Dictionary<string,int>(){};
 
-        // SIMPLE CASE
+        // SIMPLE CASE -- might not use it, I found a better way.
         public int CountWords(string word)
         {
             return word.Split(' ').Length;

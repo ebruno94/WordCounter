@@ -11,7 +11,7 @@ namespace WordCounterProject.Tests
         public void CountWords_ReturnNumberOfWords_Apple1()
         {
             //Arrange
-            WordCounter myCounter = new WordCounter();
+            RepeatCounter myCounter = new RepeatCounter();
             //Assert
             Assert.AreEqual(1, myCounter.CountWords("apple"));
         }
@@ -19,7 +19,7 @@ namespace WordCounterProject.Tests
         [TestMethod]
         public void SetDictionary_ContainsApple_True()
         {
-            WordCounter myCounter = new WordCounter();
+            RepeatCounter myCounter = new RepeatCounter();
             myCounter.SetDictionary("apple");
             Assert.AreEqual(true, myCounter.GetDictionary().ContainsKey("apple"));
         }
@@ -27,7 +27,7 @@ namespace WordCounterProject.Tests
         [TestMethod]
         public void SetDictionary_ContainsTwoApples_True()
         {
-            WordCounter myCounter = new WordCounter();
+            RepeatCounter myCounter = new RepeatCounter();
             myCounter.SetDictionary("apple apple");
             Assert.AreEqual(2, myCounter.GetDictionary()["apple"]);
         }

@@ -1,0 +1,9 @@
+C:\Users\Ernest\Desktop\Projects\C#\WordCounter.Solution\WordCounter\bin\Debug\netcoreapp1.1\WordCounter.deps.json
+C:\Users\Ernest\Desktop\Projects\C#\WordCounter.Solution\WordCounter\bin\Debug\netcoreapp1.1\WordCounter.runtimeconfig.json
+C:\Users\Ernest\Desktop\Projects\C#\WordCounter.Solution\WordCounter\bin\Debug\netcoreapp1.1\WordCounter.runtimeconfig.dev.json
+C:\Users\Ernest\Desktop\Projects\C#\WordCounter.Solution\WordCounter\obj\Debug\netcoreapp1.1\WordCounter.csproj.CoreCompileInputs.cache
+C:\Users\Ernest\Desktop\Projects\C#\WordCounter.Solution\WordCounter\obj\Debug\netcoreapp1.1\WordCounter.AssemblyInfo.cs
+C:\Users\Ernest\Desktop\Projects\C#\WordCounter.Solution\WordCounter\bin\Debug\netcoreapp1.1\WordCounter.dll
+C:\Users\Ernest\Desktop\Projects\C#\WordCounter.Solution\WordCounter\bin\Debug\netcoreapp1.1\WordCounter.pdb
+C:\Users\Ernest\Desktop\Projects\C#\WordCounter.Solution\WordCounter\obj\Debug\netcoreapp1.1\WordCounter.dll
+C:\Users\Ernest\Desktop\Projects\C#\WordCounter.Solution\WordCounter\obj\Debug\netcoreapp1.1\WordCounter.pdb
