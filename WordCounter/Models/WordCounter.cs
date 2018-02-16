@@ -16,7 +16,8 @@ namespace WordCounterProject.Models
 
         public static void SetDictionary(string input)
         {
-            string[] wordArray = input.Split(' ');
+            char[] delimiterChars = {' ', ',', '.'};
+            string[] wordArray = input.Split(delimiterChars);
             foreach (string word in wordArray)
             {
                 if (!_dictionary.ContainsKey(word))
