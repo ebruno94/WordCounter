@@ -1,10 +1,11 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using WordCounterProject;
+using System;
 
 namespace WordCounterProject.Tests
 {
     [TestClass]
-    public class WordCounterTest
+    public class WordCounterTest : IDisposable
     {
         // SIMPLE CASE
         [TestMethod]
@@ -19,17 +20,22 @@ namespace WordCounterProject.Tests
         [TestMethod]
         public void SetDictionary_ContainsApple_True()
         {
-            RepeatCounter myCounter = new RepeatCounter();
-            myCounter.SetDictionary("apple");
-            Assert.AreEqual(true, myCounter.GetDictionary().ContainsKey("apple"));
+            // RepeatCounter myCounter = new RepeatCounter();
+            RepeatCounter.SetDictionary("apple");
+            Assert.AreEqual(true, RepeatCounter.GetDictionary().ContainsKey("apple"));
         }
 
         [TestMethod]
         public void SetDictionary_ContainsTwoApples_True()
         {
-            RepeatCounter myCounter = new RepeatCounter();
-            myCounter.SetDictionary("apple apple");
-            Assert.AreEqual(2, myCounter.GetDictionary()["apple"]);
+            // RepeatCounter myCounter = new RepeatCounter();
+            RepeatCounter.SetDictionary("apple apple");
+            Assert.AreEqual(2, RepeatCounter.GetDictionary()["apple"]);
+        }
+
+        public void Dispose()
+        {
+            RepeatCounter.ClearAll();
         }
     }
 }
