@@ -1,1 +1,2 @@
-# CLONE THIS PRESET 
+# CLONE THIS PRESET
+## DON'T FORGET TO RUN >dotnet restore!
