@@ -23,7 +23,7 @@ Program that counts the instances of a word in a given string, omits punctuation
 
 ## Setup/Installation Requirements
 
-1. Clone this repository from GitHub.
+1. Clone this repository from GitHub (https://github.com/ebruno94/WordCounter.git)
 
 2. Use terminal and run >dotnet run.
 
